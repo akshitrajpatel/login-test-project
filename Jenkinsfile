@@ -1,11 +1,6 @@
 pipeline {
     agent any
-
-    tools {
-        // Ensure Maven is installed and available
-        maven 'Maven 3.9.8'
-    }
-
+    
     environment {
         // Define the path to the ChromeDriver
         CHROME_DRIVER_PATH = '/path/to/chromedriver'
