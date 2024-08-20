@@ -15,7 +15,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout code from GitHub
-                git url: 'https://github.com/your-username/login-test-project.git', branch: 'main'
+                git url: 'https://github.com/akshitrajpatel/login-test-project.git', branch: 'main'
             }
         }
 
